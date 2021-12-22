@@ -6,6 +6,8 @@ body {
     background-size: cover;
 }
 
+/* rounded corners */
+
 main {
     border-radius: 0px 0px 30px 30px;
 }
@@ -28,35 +30,43 @@ td {
     border-radius: 10px 10px 10px 10px;
 }
 
-.profile-info {
-    border: 0px;
-}
-
-ul.links {
-    background-color: #BB8FCE;
-}
+/* remove border */
 
 .profile .contact,
 .profile .url-info,
 .profile .table-section,
 .home-actions {
-    border: 0px !important;
+    border: none;
+}
+
+/* colors */
+
+main {
+    color: #1A5276;
+}
+
+.heading>h4 {
+    color: #1A5276;
+}
+
+.blurbs>.inner>.section>h4 {
+    color: #1A5276;
+}
+
+span.count {
+    color: #1A5276;
+}
+
+span [itemprop="name"] {
+    color: white;
+}
+
+nav .links {
+    background-color: #BB8FCE;
 }
 
 a {
     color: #512E5F;
-}
-
-h4 {
-    color: #1A5276;
-}
-
-p {
-    color: #1A5276;
-}
-
-.profile .blurbs .section h4 {
-    color: #1A5276;
 }
 
 .profile .blurbs .heading,
@@ -76,8 +86,4 @@ p {
 
 .details-table td {
     background: #F4ECF7;
-}
-
-span.count {
-    color: #1A5276;
 }
