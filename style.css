@@ -1,80 +1,83 @@
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
-</style>
 
-<style>
 body {
-font-family: 'Comfortaa', cursive;
-background: url("https://data.whicdn.com/images/197122776/original.gif") no-repeat fixed;
-background-size: cover;
+    font-family: 'Comfortaa', cursive;
+    background: url("https://data.whicdn.com/images/197122776/original.gif") no-repeat fixed;
+    background-size: cover;
 }
+
 main {
-border-radius: 0px 0px 30px 30px;
+    border-radius: 0px 0px 30px 30px;
 }
 
 div.top {
-border-radius: 30px 30px 0px 0px;
-background-color: #A569BD;
+    border-radius: 30px 30px 0px 0px;
+    background-color: #A569BD;
 }
 
 div.heading {
-border-radius: 30px 30px 30px 30px;
+    border-radius: 30px 30px 30px 30px;
 }
 
 footer {
-border-radius: 30px 30px 30px 30px;
-background: #FFFFFF;
+    border-radius: 30px 30px 30px 30px;
+    background: #FFFFFF;
 }
 
 td {
-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .profile-info {
-border: 0px;
+    border: 0px;
 }
 
 ul.links {
-background-color: #BB8FCE;
+    background-color: #BB8FCE;
 }
 
-.profile .contact, .profile .url-info, .profile .table-section, .home-actions {
+.profile .contact,
+.profile .url-info,
+.profile .table-section,
+.home-actions {
     border: 0px !important;
 }
 
 a {
-color: #512E5F;
+    color: #512E5F;
 }
 
 h4 {
-color: #1A5276;
+    color: #1A5276;
 }
 
 p {
-color: #1A5276;
+    color: #1A5276;
 }
 
 .profile .blurbs .section h4 {
-color: #1A5276;
+    color: #1A5276;
 }
 
-.profile .blurbs .heading, .profile .friends .heading {
-background: #D2B4DE;
+.profile .blurbs .heading,
+.profile .friends .heading {
+    background: #D2B4DE;
 }
 
-.profile .contact .heading, .profile .table-section .heading, .home-actions .heading {
-background: #D2B4DE;
+.profile .contact .heading,
+.profile .table-section .heading,
+.home-actions .heading {
+    background: #D2B4DE;
 }
 
 .details-table td:first-child {
-background: #D7BDE2;
+    background: #D7BDE2;
 }
 
 .details-table td {
-background: #F4ECF7;
+    background: #F4ECF7;
 }
 
 span.count {
-color: #1A5276;
+    color: #1A5276;
 }
-</style>
